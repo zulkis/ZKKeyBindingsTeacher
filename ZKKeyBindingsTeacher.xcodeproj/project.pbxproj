@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		131D3330196274C500E465CD /* ZKKeyBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 131D3327196274C500E465CD /* ZKKeyBinding.m */; };
+		131D3332196274C500E465CD /* ZKKeyBindingsTeacher-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 131D332C196274C500E465CD /* ZKKeyBindingsTeacher-Info.plist */; };
+		131D3333196274C500E465CD /* ZKKeyBindingsTeacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 131D332F196274C500E465CD /* ZKKeyBindingsTeacher.m */; };
+		13203595196E936E0023430E /* ZKKeyBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13203594196E936E0023430E /* ZKKeyBindingsController.m */; };
+		1321739219693DBF00EFAD16 /* ZKKeyBindingSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321739119693DBF00EFAD16 /* ZKKeyBindingSet.m */; };
+		13217395196945CE00EFAD16 /* ZKKeyboardShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 13217394196945CE00EFAD16 /* ZKKeyboardShortcut.m */; };
+		1321739819694BD400EFAD16 /* ZKKeyBindingsArrayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1321739719694BD400EFAD16 /* ZKKeyBindingsArrayController.m */; };
+		13777C42196E7CB0002C8480 /* ZKKeyBindingGroupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13777C41196E7CB0002C8480 /* ZKKeyBindingGroupController.m */; };
+		138010E919627FF900E9F514 /* ZKKeyBindingTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 138010E819627FF900E9F514 /* ZKKeyBindingTableCellView.m */; };
+		13CC243019646D4A0088034F /* ZKKeyBindingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 13CC242F19646D4A0088034F /* ZKKeyBindingGroup.m */; };
+		13CC2432196474A60088034F /* IDEKeyBindingPreferenceSet.h in Sources */ = {isa = PBXBuildFile; fileRef = 13CC24311964702D0088034F /* IDEKeyBindingPreferenceSet.h */; };
+		13CC243819650BC10088034F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13CC243419650BC10088034F /* InfoPlist.strings */; };
+		13D075EE195F0AEE00AE5929 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D075ED195F0AEE00AE5929 /* AppKit.framework */; };
+		13D075F0195F0AEE00AE5929 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D075EF195F0AEE00AE5929 /* Foundation.framework */; };
+		13D7955A1974241300240A84 /* ZKKeyBindingSelectAllCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D795591974241300240A84 /* ZKKeyBindingSelectAllCellView.m */; };
+		13D7955D197427C300240A84 /* ZKKeyBindingStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D7955C197427C300240A84 /* ZKKeyBindingStorage.m */; };
+		13D9B066197AC02100888B71 /* RFOverlayScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9B063197AC02100888B71 /* RFOverlayScroller.m */; };
+		13D9B067197AC02100888B71 /* RFOverlayScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9B065197AC02100888B71 /* RFOverlayScrollView.m */; };
+		13D9B06F197AC4EB00888B71 /* ZKKeyBindingHintWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9B06A197AC4EB00888B71 /* ZKKeyBindingHintWindowController.m */; };
+		13D9B070197AC4EB00888B71 /* ZKKeyBindingHintWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D9B06B197AC4EB00888B71 /* ZKKeyBindingHintWindowController.xib */; };
+		13D9B071197AC4EB00888B71 /* ZKKeyBindingsEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9B06D197AC4EB00888B71 /* ZKKeyBindingsEditorController.m */; };
+		13D9B072197AC4EB00888B71 /* ZKKeyBindingsEditorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D9B06E197AC4EB00888B71 /* ZKKeyBindingsEditorController.xib */; };
+		13D9B078197AD8C900888B71 /* ZKHiddenScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9B077197AD8C900888B71 /* ZKHiddenScroller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		131D3326196274C500E465CD /* ZKKeyBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBinding.h; sourceTree = "<group>"; };
+		131D3327196274C500E465CD /* ZKKeyBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBinding.m; sourceTree = "<group>"; };
+		131D332C196274C500E465CD /* ZKKeyBindingsTeacher-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ZKKeyBindingsTeacher-Info.plist"; sourceTree = "<group>"; };
+		131D332D196274C500E465CD /* ZKKeyBindingsTeacher-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZKKeyBindingsTeacher-Prefix.pch"; sourceTree = "<group>"; };
+		131D332E196274C500E465CD /* ZKKeyBindingsTeacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingsTeacher.h; sourceTree = "<group>"; };
+		131D332F196274C500E465CD /* ZKKeyBindingsTeacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingsTeacher.m; sourceTree = "<group>"; };
+		13203593196E936E0023430E /* ZKKeyBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingsController.h; sourceTree = "<group>"; };
+		13203594196E936E0023430E /* ZKKeyBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingsController.m; sourceTree = "<group>"; };
+		1321739019693DBF00EFAD16 /* ZKKeyBindingSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingSet.h; sourceTree = "<group>"; };
+		1321739119693DBF00EFAD16 /* ZKKeyBindingSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingSet.m; sourceTree = "<group>"; };
+		13217393196945CE00EFAD16 /* ZKKeyboardShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyboardShortcut.h; sourceTree = "<group>"; };
+		13217394196945CE00EFAD16 /* ZKKeyboardShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyboardShortcut.m; sourceTree = "<group>"; };
+		1321739619694BD400EFAD16 /* ZKKeyBindingsArrayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingsArrayController.h; sourceTree = "<group>"; };
+		1321739719694BD400EFAD16 /* ZKKeyBindingsArrayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingsArrayController.m; sourceTree = "<group>"; };
+		13777C40196E7CB0002C8480 /* ZKKeyBindingGroupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingGroupController.h; sourceTree = "<group>"; };
+		13777C41196E7CB0002C8480 /* ZKKeyBindingGroupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingGroupController.m; sourceTree = "<group>"; };
+		138010E719627FF900E9F514 /* ZKKeyBindingTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingTableCellView.h; sourceTree = "<group>"; };
+		138010E819627FF900E9F514 /* ZKKeyBindingTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingTableCellView.m; sourceTree = "<group>"; };
+		13CC242E19646D4A0088034F /* ZKKeyBindingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingGroup.h; sourceTree = "<group>"; };
+		13CC242F19646D4A0088034F /* ZKKeyBindingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingGroup.m; sourceTree = "<group>"; };
+		13CC24311964702D0088034F /* IDEKeyBindingPreferenceSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEKeyBindingPreferenceSet.h; sourceTree = "<group>"; };
+		13CC243519650BC10088034F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		13CC243719650BC10088034F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = PlugIn.strings; sourceTree = "<group>"; };
+		13D075EA195F0AEE00AE5929 /* ZKKeyBindingsTeacher.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKKeyBindingsTeacher.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		13D075ED195F0AEE00AE5929 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		13D075EF195F0AEE00AE5929 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		13D795581974241300240A84 /* ZKKeyBindingSelectAllCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingSelectAllCellView.h; sourceTree = "<group>"; };
+		13D795591974241300240A84 /* ZKKeyBindingSelectAllCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingSelectAllCellView.m; sourceTree = "<group>"; };
+		13D7955B197427C300240A84 /* ZKKeyBindingStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingStorage.h; sourceTree = "<group>"; };
+		13D7955C197427C300240A84 /* ZKKeyBindingStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingStorage.m; sourceTree = "<group>"; };
+		13D9B062197AC02100888B71 /* RFOverlayScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFOverlayScroller.h; sourceTree = "<group>"; };
+		13D9B063197AC02100888B71 /* RFOverlayScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFOverlayScroller.m; sourceTree = "<group>"; };
+		13D9B064197AC02100888B71 /* RFOverlayScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFOverlayScrollView.h; sourceTree = "<group>"; };
+		13D9B065197AC02100888B71 /* RFOverlayScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFOverlayScrollView.m; sourceTree = "<group>"; };
+		13D9B069197AC4EB00888B71 /* ZKKeyBindingHintWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingHintWindowController.h; sourceTree = "<group>"; };
+		13D9B06A197AC4EB00888B71 /* ZKKeyBindingHintWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingHintWindowController.m; sourceTree = "<group>"; };
+		13D9B06B197AC4EB00888B71 /* ZKKeyBindingHintWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKKeyBindingHintWindowController.xib; sourceTree = "<group>"; };
+		13D9B06C197AC4EB00888B71 /* ZKKeyBindingsEditorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKKeyBindingsEditorController.h; sourceTree = "<group>"; };
+		13D9B06D197AC4EB00888B71 /* ZKKeyBindingsEditorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingsEditorController.m; sourceTree = "<group>"; };
+		13D9B06E197AC4EB00888B71 /* ZKKeyBindingsEditorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKKeyBindingsEditorController.xib; sourceTree = "<group>"; };
+		13D9B076197AD8C900888B71 /* ZKHiddenScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKHiddenScroller.h; sourceTree = "<group>"; };
+		13D9B077197AD8C900888B71 /* ZKHiddenScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKHiddenScroller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13D075E7195F0AEE00AE5929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D075EE195F0AEE00AE5929 /* AppKit.framework in Frameworks */,
+				13D075F0195F0AEE00AE5929 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		131D3323196274C500E465CD /* ZKKeyBindingsTeacher */ = {
+			isa = PBXGroup;
+			children = (
+				131D332E196274C500E465CD /* ZKKeyBindingsTeacher.h */,
+				131D332F196274C500E465CD /* ZKKeyBindingsTeacher.m */,
+				131D3324196274C500E465CD /* Classes */,
+				131D3328196274C500E465CD /* Resources */,
+				131D332B196274C500E465CD /* Support */,
+			);
+			path = ZKKeyBindingsTeacher;
+			sourceTree = "<group>";
+		};
+		131D3324196274C500E465CD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				13F5544E196294600062D923 /* Vendor */,
+				138010E619627FC100E9F514 /* View */,
+				131D33341962767900E465CD /* Controller */,
+				131D3325196274C500E465CD /* Model */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		131D3325196274C500E465CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13CC24311964702D0088034F /* IDEKeyBindingPreferenceSet.h */,
+				1321739019693DBF00EFAD16 /* ZKKeyBindingSet.h */,
+				1321739119693DBF00EFAD16 /* ZKKeyBindingSet.m */,
+				13CC242E19646D4A0088034F /* ZKKeyBindingGroup.h */,
+				13CC242F19646D4A0088034F /* ZKKeyBindingGroup.m */,
+				131D3326196274C500E465CD /* ZKKeyBinding.h */,
+				131D3327196274C500E465CD /* ZKKeyBinding.m */,
+				13217393196945CE00EFAD16 /* ZKKeyboardShortcut.h */,
+				13217394196945CE00EFAD16 /* ZKKeyboardShortcut.m */,
+				13D7955B197427C300240A84 /* ZKKeyBindingStorage.h */,
+				13D7955C197427C300240A84 /* ZKKeyBindingStorage.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		131D3328196274C500E465CD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13CC243319650BC10088034F /* en.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		131D332B196274C500E465CD /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				131D332C196274C500E465CD /* ZKKeyBindingsTeacher-Info.plist */,
+				131D332D196274C500E465CD /* ZKKeyBindingsTeacher-Prefix.pch */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		131D33341962767900E465CD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				13777C3F196E7C93002C8480 /* ObjectController */,
+				13D9B068197AC4EB00888B71 /* WindowController */,
+				1321739619694BD400EFAD16 /* ZKKeyBindingsArrayController.h */,
+				1321739719694BD400EFAD16 /* ZKKeyBindingsArrayController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		13777C3F196E7C93002C8480 /* ObjectController */ = {
+			isa = PBXGroup;
+			children = (
+				13777C40196E7CB0002C8480 /* ZKKeyBindingGroupController.h */,
+				13777C41196E7CB0002C8480 /* ZKKeyBindingGroupController.m */,
+				13203593196E936E0023430E /* ZKKeyBindingsController.h */,
+				13203594196E936E0023430E /* ZKKeyBindingsController.m */,
+			);
+			path = ObjectController;
+			sourceTree = "<group>";
+		};
+		138010E619627FC100E9F514 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				13D9B075197AD8B600888B71 /* HiddenScroller */,
+				13D9B061197AC02100888B71 /* RFOverlayScrollView */,
+				138010E719627FF900E9F514 /* ZKKeyBindingTableCellView.h */,
+				138010E819627FF900E9F514 /* ZKKeyBindingTableCellView.m */,
+				13D795581974241300240A84 /* ZKKeyBindingSelectAllCellView.h */,
+				13D795591974241300240A84 /* ZKKeyBindingSelectAllCellView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		13CC243319650BC10088034F /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				13CC243419650BC10088034F /* InfoPlist.strings */,
+				13CC243619650BC10088034F /* PlugIn.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		13D075E1195F0AEE00AE5929 = {
+			isa = PBXGroup;
+			children = (
+				131D3323196274C500E465CD /* ZKKeyBindingsTeacher */,
+				13D075EC195F0AEE00AE5929 /* Frameworks */,
+				13D075EB195F0AEE00AE5929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13D075EB195F0AEE00AE5929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13D075EA195F0AEE00AE5929 /* ZKKeyBindingsTeacher.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13D075EC195F0AEE00AE5929 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D075ED195F0AEE00AE5929 /* AppKit.framework */,
+				13D075EF195F0AEE00AE5929 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13D9B061197AC02100888B71 /* RFOverlayScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				13D9B062197AC02100888B71 /* RFOverlayScroller.h */,
+				13D9B063197AC02100888B71 /* RFOverlayScroller.m */,
+				13D9B064197AC02100888B71 /* RFOverlayScrollView.h */,
+				13D9B065197AC02100888B71 /* RFOverlayScrollView.m */,
+			);
+			path = RFOverlayScrollView;
+			sourceTree = "<group>";
+		};
+		13D9B068197AC4EB00888B71 /* WindowController */ = {
+			isa = PBXGroup;
+			children = (
+				13D9B073197AC50700888B71 /* HintWindowController */,
+				13D9B074197AC51100888B71 /* EditorWindowController */,
+			);
+			path = WindowController;
+			sourceTree = "<group>";
+		};
+		13D9B073197AC50700888B71 /* HintWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				13D9B069197AC4EB00888B71 /* ZKKeyBindingHintWindowController.h */,
+				13D9B06A197AC4EB00888B71 /* ZKKeyBindingHintWindowController.m */,
+				13D9B06B197AC4EB00888B71 /* ZKKeyBindingHintWindowController.xib */,
+			);
+			name = HintWindowController;
+			sourceTree = "<group>";
+		};
+		13D9B074197AC51100888B71 /* EditorWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				13D9B06C197AC4EB00888B71 /* ZKKeyBindingsEditorController.h */,
+				13D9B06D197AC4EB00888B71 /* ZKKeyBindingsEditorController.m */,
+				13D9B06E197AC4EB00888B71 /* ZKKeyBindingsEditorController.xib */,
+			);
+			name = EditorWindowController;
+			sourceTree = "<group>";
+		};
+		13D9B075197AD8B600888B71 /* HiddenScroller */ = {
+			isa = PBXGroup;
+			children = (
+				13D9B076197AD8C900888B71 /* ZKHiddenScroller.h */,
+				13D9B077197AD8C900888B71 /* ZKHiddenScroller.m */,
+			);
+			path = HiddenScroller;
+			sourceTree = "<group>";
+		};
+		13F5544E196294600062D923 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13D075E9195F0AEE00AE5929 /* ZKKeyBindingsTeacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D075FD195F0AEE00AE5929 /* Build configuration list for PBXNativeTarget "ZKKeyBindingsTeacher" */;
+			buildPhases = (
+				13D075E6195F0AEE00AE5929 /* Sources */,
+				13D075E7195F0AEE00AE5929 /* Frameworks */,
+				13D075E8195F0AEE00AE5929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKKeyBindingsTeacher;
+			productName = BindingsTeacher;
+			productReference = 13D075EA195F0AEE00AE5929 /* ZKKeyBindingsTeacher.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13D075E2195F0AEE00AE5929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alexey Minaev";
+			};
+			buildConfigurationList = 13D075E5195F0AEE00AE5929 /* Build configuration list for PBXProject "ZKKeyBindingsTeacher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 13D075E1195F0AEE00AE5929;
+			productRefGroup = 13D075EB195F0AEE00AE5929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13D075E9195F0AEE00AE5929 /* ZKKeyBindingsTeacher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13D075E8195F0AEE00AE5929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D9B070197AC4EB00888B71 /* ZKKeyBindingHintWindowController.xib in Resources */,
+				131D3332196274C500E465CD /* ZKKeyBindingsTeacher-Info.plist in Resources */,
+				13CC243819650BC10088034F /* InfoPlist.strings in Resources */,
+				13D9B072197AC4EB00888B71 /* ZKKeyBindingsEditorController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13D075E6195F0AEE00AE5929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CC2432196474A60088034F /* IDEKeyBindingPreferenceSet.h in Sources */,
+				13D9B071197AC4EB00888B71 /* ZKKeyBindingsEditorController.m in Sources */,
+				1321739219693DBF00EFAD16 /* ZKKeyBindingSet.m in Sources */,
+				13CC243019646D4A0088034F /* ZKKeyBindingGroup.m in Sources */,
+				131D3330196274C500E465CD /* ZKKeyBinding.m in Sources */,
+				13D9B067197AC02100888B71 /* RFOverlayScrollView.m in Sources */,
+				13203595196E936E0023430E /* ZKKeyBindingsController.m in Sources */,
+				13D9B078197AD8C900888B71 /* ZKHiddenScroller.m in Sources */,
+				13217395196945CE00EFAD16 /* ZKKeyboardShortcut.m in Sources */,
+				13D9B066197AC02100888B71 /* RFOverlayScroller.m in Sources */,
+				131D3333196274C500E465CD /* ZKKeyBindingsTeacher.m in Sources */,
+				13D7955D197427C300240A84 /* ZKKeyBindingStorage.m in Sources */,
+				138010E919627FF900E9F514 /* ZKKeyBindingTableCellView.m in Sources */,
+				13D9B06F197AC4EB00888B71 /* ZKKeyBindingHintWindowController.m in Sources */,
+				13D7955A1974241300240A84 /* ZKKeyBindingSelectAllCellView.m in Sources */,
+				1321739819694BD400EFAD16 /* ZKKeyBindingsArrayController.m in Sources */,
+				13777C42196E7CB0002C8480 /* ZKKeyBindingGroupController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		13CC243419650BC10088034F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CC243519650BC10088034F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		13CC243619650BC10088034F /* PlugIn.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CC243719650BC10088034F /* en */,
+			);
+			name = PlugIn.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13D075FB195F0AEE00AE5929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		13D075FC195F0AEE00AE5929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		13D075FE195F0AEE00AE5929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZKKeyBindingsTeacher/Support/ZKKeyBindingsTeacher-Prefix.pch";
+				INFOPLIST_FILE = "ZKKeyBindingsTeacher/Support/ZKKeyBindingsTeacher-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-w",
+				);
+				PRODUCT_NAME = ZKKeyBindingsTeacher;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		13D075FF195F0AEE00AE5929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZKKeyBindingsTeacher/Support/ZKKeyBindingsTeacher-Prefix.pch";
+				INFOPLIST_FILE = "ZKKeyBindingsTeacher/Support/ZKKeyBindingsTeacher-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-w",
+				);
+				PRODUCT_NAME = ZKKeyBindingsTeacher;
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13D075E5195F0AEE00AE5929 /* Build configuration list for PBXProject "ZKKeyBindingsTeacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D075FB195F0AEE00AE5929 /* Debug */,
+				13D075FC195F0AEE00AE5929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D075FD195F0AEE00AE5929 /* Build configuration list for PBXNativeTarget "ZKKeyBindingsTeacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13D075FE195F0AEE00AE5929 /* Debug */,
+				13D075FF195F0AEE00AE5929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13D075E2195F0AEE00AE5929 /* Project object */;
+}
