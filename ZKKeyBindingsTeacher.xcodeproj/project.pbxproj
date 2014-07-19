@@ -55,7 +55,6 @@
 		13CC242F19646D4A0088034F /* ZKKeyBindingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKKeyBindingGroup.m; sourceTree = "<group>"; };
 		13CC24311964702D0088034F /* IDEKeyBindingPreferenceSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEKeyBindingPreferenceSet.h; sourceTree = "<group>"; };
 		13CC243519650BC10088034F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		13CC243719650BC10088034F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = PlugIn.strings; sourceTree = "<group>"; };
 		13D075EA195F0AEE00AE5929 /* ZKKeyBindingsTeacher.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKKeyBindingsTeacher.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D075ED195F0AEE00AE5929 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		13D075EF195F0AEE00AE5929 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -187,7 +186,6 @@
 			isa = PBXGroup;
 			children = (
 				13CC243419650BC10088034F /* InfoPlist.strings */,
-				13CC243619650BC10088034F /* PlugIn.strings */,
 			);
 			path = en.lproj;
 			sourceTree = "<group>";
@@ -369,14 +367,6 @@
 				13CC243519650BC10088034F /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		13CC243619650BC10088034F /* PlugIn.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13CC243719650BC10088034F /* en */,
-			);
-			name = PlugIn.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
