@@ -11,6 +11,8 @@ Xcode plugin for key bindings learning
 
 ![Menu](https://github.com/zulkis/ZKKeyBindingsTeacher/raw/master/menu.png)
 
+- Tap on "Modify key bindings" and select what you want to learn:
+![KeyBindingsEditor](https://github.com/zulkis/ZKKeyBindingsTeacher/raw/master/keyBindingsSelection.png)
 
 ## Prerequisites
 
