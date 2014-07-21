@@ -12,7 +12,6 @@
 
 + (instancetype)keyboardShortcutWithIDEKeyboardShortcut:(id<IDEKeyboardShortcut>)shortcut {
     ZKKeyboardShortcut *this = [self new];
-    [self new];
     this.stringRepresentation = shortcut.stringRepresentation;
     this.humanRedableName = shortcut.humanRedableName;
     this.localizedDisplayName = shortcut.localizedDisplayName;
