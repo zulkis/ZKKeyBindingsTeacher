@@ -37,33 +37,48 @@ static ZKKeyBindingsTeacher *sharedPlugin;
         });
     }
 }
-
+ 
 - (id)initWithBundle:(NSBundle *)plugin
 {
     if (self = [super init]) {
         self.bundle = plugin;
         
-        self.editorController = [ZKKeyBindingsEditorController new];
-        self.hintWindowController = [ZKKeyBindingHintWindowController new];
-        
-        BOOL teacherEnabled = [[NSUserDefaults standardUserDefaults] boolForKey:ZKKeyBindingsTeacherEnabled];
-        NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"View"];
-        if (menuItem) {
-            [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
-            NSMenuItem *teachMeHotkeysMenuItem = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Teach me key bindings", nil) action:@selector(teachMeHotkeysEnabled:) keyEquivalent:@""];
-            [teachMeHotkeysMenuItem setTarget:self];
-            [[menuItem submenu] addItem:teachMeHotkeysMenuItem];
-            
-            NSMenuItem *modifyKeyBindingsMenuItem = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Modify key bindings", nil) action:@selector(modifyKeyBindings:) keyEquivalent:@""];
-            [modifyKeyBindingsMenuItem setTarget:self];
-            [[menuItem submenu] addItem:modifyKeyBindingsMenuItem];
-        }
-        
-        if (teacherEnabled) {
-            [self startLesson];
+        if (NSApp && !NSApp.mainMenu) {
+            [[NSNotificationCenter defaultCenter] addObserver:self
+                                                     selector:@selector(applicationDidFinishLaunching:)
+                                                         name:NSApplicationDidFinishLaunchingNotification
+                                                       object:nil];
         }
     }
     return self;
+}
+
+- (void)applicationDidFinishLaunching:(NSNotification *)notification
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:NSApplicationDidFinishLaunchingNotification object:nil];
+    [self initialize];
+}
+
+- (void)initialize {
+    self.editorController = [ZKKeyBindingsEditorController new];
+    self.hintWindowController = [ZKKeyBindingHintWindowController new];
+    
+    BOOL teacherEnabled = [[NSUserDefaults standardUserDefaults] boolForKey:ZKKeyBindingsTeacherEnabled];
+    NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"View"];
+    if (menuItem) {
+        [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
+        NSMenuItem *teachMeHotkeysMenuItem = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Teach me key bindings", nil) action:@selector(teachMeHotkeysEnabled:) keyEquivalent:@""];
+        [teachMeHotkeysMenuItem setTarget:self];
+        [[menuItem submenu] addItem:teachMeHotkeysMenuItem];
+        
+        NSMenuItem *modifyKeyBindingsMenuItem = [[NSMenuItem alloc] initWithTitle:NSLocalizedString(@"Modify key bindings", nil) action:@selector(modifyKeyBindings:) keyEquivalent:@""];
+        [modifyKeyBindingsMenuItem setTarget:self];
+        [[menuItem submenu] addItem:modifyKeyBindingsMenuItem];
+    }
+    
+    if (teacherEnabled) {
+        [self startLesson];
+    }
 }
 
 - (BOOL)validateMenuItem:(NSMenuItem *)menuItem
