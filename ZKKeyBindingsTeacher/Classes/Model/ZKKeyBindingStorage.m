@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Alexey Minaev. All rights reserved.
 //
 
+#import "ZKKeyBindingsTeacher.h"
+
 #import "ZKKeyBindingStorage.h"
 
 #import "ZKKeyBinding.h"
@@ -81,6 +83,14 @@ static NSString * const ZKKeyBindingStorageKey = @"ZKKeyBindingStorageKey";
 
 - (void)load {
     _keyBindingActions = [NSMutableSet setWithArray:[[NSUserDefaults standardUserDefaults] objectForKey:ZKKeyBindingStorageKey]];
+    if ([_keyBindingActions count] == 0) {
+        [self _loadDefaults];
+    }
+}
+
+- (void)_loadDefaults {
+    NSDictionary *defaultsRoot = [NSDictionary dictionaryWithContentsOfFile:[[ZKKeyBindingsTeacher sharedInstance].bundle pathForResource:@"XcodeDefaultBindings" ofType:@"plist"]];
+    _keyBindingActions = [NSMutableSet setWithArray:defaultsRoot[ZKKeyBindingStorageKey]];
 }
 
 @end

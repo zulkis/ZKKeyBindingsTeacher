@@ -30,6 +30,7 @@
 		13D9B071197AC4EB00888B71 /* ZKKeyBindingsEditorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9B06D197AC4EB00888B71 /* ZKKeyBindingsEditorController.m */; };
 		13D9B072197AC4EB00888B71 /* ZKKeyBindingsEditorController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13D9B06E197AC4EB00888B71 /* ZKKeyBindingsEditorController.xib */; };
 		13D9B078197AD8C900888B71 /* ZKHiddenScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D9B077197AD8C900888B71 /* ZKHiddenScroller.m */; };
+		AEA264FF1CFF8E2A00179BE0 /* XcodeDefaultBindings.plist in Resources */ = {isa = PBXBuildFile; fileRef = AEA264FE1CFF8E2A00179BE0 /* XcodeDefaultBindings.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		13D9B06E197AC4EB00888B71 /* ZKKeyBindingsEditorController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKKeyBindingsEditorController.xib; sourceTree = "<group>"; };
 		13D9B076197AD8C900888B71 /* ZKHiddenScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKHiddenScroller.h; sourceTree = "<group>"; };
 		13D9B077197AD8C900888B71 /* ZKHiddenScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKHiddenScroller.m; sourceTree = "<group>"; };
+		AEA264FE1CFF8E2A00179BE0 /* XcodeDefaultBindings.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = XcodeDefaultBindings.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		131D3328196274C500E465CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				AEA264FE1CFF8E2A00179BE0 /* XcodeDefaultBindings.plist */,
 				13CC243319650BC10088034F /* en.lproj */,
 			);
 			path = Resources;
@@ -328,6 +331,7 @@
 				131D3332196274C500E465CD /* ZKKeyBindingsTeacher-Info.plist in Resources */,
 				13CC243819650BC10088034F /* InfoPlist.strings in Resources */,
 				13D9B072197AC4EB00888B71 /* ZKKeyBindingsEditorController.xib in Resources */,
+				AEA264FF1CFF8E2A00179BE0 /* XcodeDefaultBindings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

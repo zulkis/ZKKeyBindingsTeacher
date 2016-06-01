@@ -12,4 +12,8 @@
 
 @interface ZKKeyBindingsTeacher : NSObject
 
++ (instancetype)sharedInstance;
+
+@property (nonatomic, strong, readonly) NSBundle *bundle;
+
 @end

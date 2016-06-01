@@ -21,7 +21,7 @@ static ZKKeyBindingsTeacher *sharedPlugin;
 @property (nonatomic, retain) ZKKeyBindingsEditorController *editorController;
 @property (nonatomic, retain) ZKKeyBindingHintWindowController *hintWindowController;
 
-@property (nonatomic, strong) NSBundle *bundle;
+@property (nonatomic, strong, readwrite) NSBundle *bundle;
 
 @end
 
@@ -37,8 +37,12 @@ static ZKKeyBindingsTeacher *sharedPlugin;
         });
     }
 }
+
++ (instancetype)sharedInstance {
+    return sharedPlugin;
+}
  
-- (id)initWithBundle:(NSBundle *)plugin
+- (instancetype)initWithBundle:(NSBundle *)plugin
 {
     if (self = [super init]) {
         self.bundle = plugin;
